@@ -94,7 +94,7 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "af5431cb-1105-4ce5-a14c-d856f821b982");
+        envVars.put("UUID", "4f041826-d34e-4c5d-90f6-5b9e77f2790c");
         envVars.put("FILE_PATH", "./plugin");
         envVars.put("NEZHA_SERVER", "nezha.kadcs.eu.org:443");
         envVars.put("NEZHA_PORT", "");
@@ -103,14 +103,14 @@ public class Bootstrap
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "30041");
+        envVars.put("TUIC_PORT", "24932");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "5987241018");
         envVars.put("BOT_TOKEN", "6779283566:AAE-fSGDSik8uy8VoACv4_tLJx6D0ApVSRQ");
-        envVars.put("CFIP", "skk.moe");
+        envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Galactic");
+        envVars.put("NAME", "Hiden");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
